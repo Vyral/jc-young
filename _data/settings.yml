@@ -21,7 +21,7 @@ client:
   brand: eXp Realty
   brokerage:
   market: Anna
-  address: '805 W White St #300, Anna, TX 75409'
+  address: 
   phone: 214-799-9139
   phone_type:
   phone2:
@@ -70,7 +70,7 @@ socials:
   twitter_url: https://twitter.com/jcyoungrealtor
   instagram_url:
   pinterest_url:
-  zillow_url:
+  zillow_url: https://www.zillow.com/profile/jcyoungrealestate/
   trulia_url:
   yelp_url:
   podcast_url:
