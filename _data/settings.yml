@@ -1,6 +1,6 @@
 audit_header: false
-title: Anna Real Estate Video Blog with JC Young
-description: Our mission at eXp Realty is to be your best resource for Anna real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The eXp Realty, your professional Anna Real Estate Agents.
+title: Austin Real Estate Video Blog with JC Young
+description: Our mission at eXp Realty is to be your best resource for Austin real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The eXp Realty, your professional Austin Real Estate Agents.
 show_custom_links: false
 custom_links:
   - title:
@@ -20,7 +20,7 @@ client:
     "I want to make sure everything fits the home, the neighborhood, the schools, and the community. Change is hard for families. That's why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!" Whether your family is buying or selling, let JC help you through this crossroads of decisions.
   brand: eXp Realty
   brokerage:
-  market: Anna
+  market: Austin
   address: 
   phone: 214-799-9139
   phone_type:
@@ -37,15 +37,15 @@ CTAs:
 
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/001.jpg
-    CTA_title: "What’s Your Anna Home Worth?"
+    CTA_title: "What’s Your Austin Home Worth?"
     CTA_text: "Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you."
     CTA_link_text: "Free Home Value Report"
     CTA_url: https://jcyoung.exprealty.com/sell.php
 
 second_sidebar_CTA:
   - CTA_image_path2: /img/cta-images/002.jpg
-    CTA_title2: "Looking for a Anna Home?"
-    CTA_text2: "Search the entire MLS for your Anna home."
+    CTA_title2: "Looking for a Austin Home?"
+    CTA_text2: "Search the entire MLS for your Austin home."
     CTA_link_text2: "Search the MLS"
     CTA_url2: https://jcyoung.exprealty.com/
 
@@ -76,19 +76,19 @@ socials:
   podcast_url:
 
 podcast:
-  title: 'Anna Real Estate Podcast with JC Young'
+  title: 'Austin Real Estate Podcast with JC Young'
   categories: Education
   image: /img/podcast.jpg
-  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the Anna Area Real Estate Market'
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from eXp Realty - your professional Anna Real Estate Agents.'
-  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in Anna, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the Austin Area Real Estate Market'
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from eXp Realty - your professional Austin Real Estate Agents.'
+  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in Austin, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: 'JC Young'
 
 images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
   logo_width_number: 40
-  hero_text: Anna Real Estate Video Blog
+  hero_text: Austin Real Estate Video Blog
   hero_background_hex: '#999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
