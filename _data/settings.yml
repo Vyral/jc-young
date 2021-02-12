@@ -1,5 +1,5 @@
 audit_header: false
-title: Austin Real Estate Video Blog with JC Young
+title: JC Young Real Estate Video Blog
 description: Our mission at eXp Realty is to be your best resource for Austin real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The eXp Realty, your professional Austin Real Estate Agents.
 show_custom_links: false
 custom_links:
@@ -15,13 +15,16 @@ client:
   title:
   license_number:
   about_markdown: |
-    JC is a 'what-you-see-is-what-you-get,' up-front kind of agent. She is extremely knowledgeable in the North Texas, Highway 75 corridor and knowing the communities, schools, commutes, new home areas and so much more gives her an edge in representing you. With 14 years of experience, she knows how o work on your list of things that are important to you for your next home or with selling your home. Her motto is that "a successful transaction depends on building relationships—not just selling someone a house."
+    Work with JC and you will quickly understand why her clients say they felt listened to and heard about what they were trying to accomplish in buying or selling their home.   She is a ‘what-you-see-is-what-you-get,’ up-front kind of agent.
 
-    "I want to make sure everything fits the home, the neighborhood, the schools, and the community. Change is hard for families. That's why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!" Whether your family is buying or selling, let JC help you through this crossroads of decisions.
+    JC says, “I want to make sure everything fits the home, the client’s lifestyle, the neighborhood, the schools, and the community.  Change can be difficult for families. That’s why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!”  Whether your family is buying or selling, let JC and her team help you through this crossroads of decisions.   Call her directly, 214-799-9139
+
+    JC lives in North Texas with her family on their own 1.5 acres slice of heaven that they call the Triple J Ranchette.  As an early riser, she likes to embrace the day with some mediation, prayer and definitely some cream in her coffee.   Discover the difference the right  real estate team can make for you.
+
   brand: eXp Realty
   brokerage:
   market: Austin
-  address: 
+  address:
   phone: 214-799-9139
   phone_type:
   phone2:
@@ -88,7 +91,7 @@ images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
   logo_width_number: 40
-  hero_text: Austin Real Estate Video Blog
+  hero_text: JC Young Real Estate Video Blog
   hero_background_hex: '#999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
