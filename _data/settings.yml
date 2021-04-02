@@ -1,6 +1,12 @@
 audit_header: false
 title: JC Young Real Estate Video Blog
-description: Our mission at eXp Realty is to be your best resource for Austin real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The eXp Realty, your professional Austin Real Estate Agents.
+description: >-
+  Our mission at eXp Realty is to be your best resource for Austin real estate
+  advice. Whether you are a buyer, seller, or investor, our team of
+  professionals can answer any questions you might have about real estate. If
+  you are looking to buy or sell a home, you can get all the information and the
+  latest updates, tips, and tricks from The eXp Realty, your professional Austin
+  Real Estate Agents.
 show_custom_links: false
 custom_links:
   - title:
@@ -9,52 +15,62 @@ show_custom_links_new_tab: false
 custom_links_new_tab:
   - title:
     url:
-
 forms:
   sitekey: 6LeKl1UaAAAAAAogSumQnmbW9Mag-AqhVFepxjjR
-
 client:
   name: JC Young
   title:
   license_number:
-  about_markdown: |
-    Work with JC and you will quickly understand why her clients say they felt listened to and heard about what they were trying to accomplish in buying or selling their home.   She is a ‘what-you-see-is-what-you-get,’ up-front kind of agent.
+  about_markdown: >-
+    Work with JC and you will quickly understand why her clients say they felt
+    listened to and heard about what they were trying to accomplish in buying or
+    selling their home. She is a ‘what-you-see-is-what-you-get,’ up-front kind
+    of agent.
 
-    JC says, “I want to make sure everything fits the home, the client’s lifestyle, the neighborhood, the schools, and the community.  Change can be difficult for families. That’s why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!”  Whether your family is buying or selling, let JC and her team help you through this crossroads of decisions.   Call her directly, 214-799-9139
 
-    JC lives in North Texas with her family on their own 1.5 acres slice of heaven that they call the Triple J Ranchette.  As an early riser, she likes to embrace the day with some mediation, prayer and definitely some cream in her coffee.   Discover the difference the right  real estate team can make for you.
+    JC says, “I want to make sure everything fits the home, the client’s
+    lifestyle, the neighborhood, the schools, and the community. Change can be
+    difficult for families. That’s why I continue to keep in touch with my
+    clients to make sure they are acclimating well to the area. We achieve more
+    together\!” Whether your family is buying or selling, let JC and her team
+    help you through this crossroads of decisions. Call her directly at (214)
+    799-9139.
 
+
+    JC lives in North Texas with her family on their own 1.5 acres slice of
+    heaven that they call the Triple J Ranchette. As an early riser, she likes
+    to embrace the day with some mediation, prayer and definitely some cream in
+    her coffee. Discover the difference the right real estate team can make for
+    you.
   brand: eXp Realty
   brokerage:
   market: Austin
   address:
-  phone: 214-799-9139
+  phone: (214) 799-9139
   phone_type:
   phone2:
   phone2_type:
   email:
-  url: http://jcyoung.exprealty.com
-
+  url: 'http://jcyoung.exprealty.com'
 CTAs:
   first_CTA_text: Home Valuation
-  first_CTA_URL: https://jcyoung.exprealty.com/sell.php
+  first_CTA_URL: 'https://jcyoung.exprealty.com/sell.php'
   second_CTA_text: Home Search
-  second_CTA_URL: https://jcyoung.exprealty.com/
-
+  second_CTA_URL: 'https://jcyoung.exprealty.com/'
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/001.jpg
-    CTA_title: "What’s Your Home Worth?"
-    CTA_text: "Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you."
-    CTA_link_text: "Free Home Value Report"
-    CTA_url: https://jcyoung.exprealty.com/sell.php
-
+    CTA_title: What’s Your Home Worth?
+    CTA_text: >-
+      Are you thinking of selling your home or interested in learning about home
+      prices in your neighborhood? We can help you.
+    CTA_link_text: Free Home Value Report
+    CTA_url: 'https://jcyoung.exprealty.com/sell.php'
 second_sidebar_CTA:
   - CTA_image_path2: /img/cta-images/002.jpg
-    CTA_title2: "Looking for a Home?"
-    CTA_text2: "Search the entire MLS for your home."
-    CTA_link_text2: "Search the MLS"
-    CTA_url2: https://jcyoung.exprealty.com/
-
+    CTA_title2: Looking for a Home?
+    CTA_text2: Search the entire MLS for your home.
+    CTA_link_text2: Search the MLS
+    CTA_url2: 'https://jcyoung.exprealty.com/'
 lender:
   show_section: false
   header_text: Preferred Lender
@@ -67,59 +83,64 @@ lender:
   phone:
   email:
   url:
-
 socials:
   review_sm_icons: false
-  facebook_url: https://www.facebook.com/jcyoungrealestate
+  facebook_url: 'https://www.facebook.com/jcyoungrealestate'
   linkedin_url:
-  youtube_url: https://www.youtube.com/channel/UC_dDrIBHSmCu-TxOWWQoCQQ
-  twitter_url: https://twitter.com/jcyoungrealtor
+  youtube_url: 'https://www.youtube.com/channel/UC_dDrIBHSmCu-TxOWWQoCQQ'
+  twitter_url: 'https://twitter.com/jcyoungrealtor'
   instagram_url:
   pinterest_url:
-  zillow_url: https://www.zillow.com/profile/jcyoungrealestate/
+  zillow_url: 'https://www.zillow.com/profile/jcyoungrealestate/'
   trulia_url:
   yelp_url:
   podcast_url:
-
 podcast:
-  title: 'Austin Real Estate Podcast with JC Young'
+  title: Austin Real Estate Podcast with JC Young
   categories: Education
   image: /img/podcast.jpg
-  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the Austin Area Real Estate Market'
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from eXp Realty - your professional Austin Real Estate Agents.'
-  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in Austin, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
-  author: 'JC Young'
-
+  subtitle: >-
+    Learn all the tips, tricks and more for buyers and sellers in the Austin
+    Area Real Estate Market
+  description: >-
+    If you are looking to buy or sell a home, get all the information and the
+    latest updates, tips, and tricks from eXp Realty - your professional Austin
+    Real Estate Agents.
+  keywords: >-
+    Real Estate for sale, Real Estate agents, top real estate agents, local real
+    estate agents, find a real estate agent, houses for sale in Austin, home
+    selling tips, home for sale, home buying, home buying process, property
+    finder, property search, property, real estate market, estate agent,
+    realestate, real estate listings, buying a house, homes for sale, mls, home
+    buyer
+  author: JC Young
 images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
   logo_width_number: 40
   hero_text: JC Young Real Estate Video Blog
-  hero_background_hex: '#999'
+  hero_background_hex: '#999999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
   post_cta_image: /img/home-value.jpg
   post_cta_image2: /img/home-search.jpg
-
 site_colors:
   brand_color: '#19469d'
   theme_color: '#00021a'
   theme_text_color: '#5d9bd3'
   main_body_color: '#ffffff'
   main_body_text_color: '#353535'
-
 header_shadow:
   h_shadow: 0px
   w_shadow: 2px
   shadow_spread: 7px
-  shadow_color: black
-
+  shadow_color: '#000000'
 buttons:
   button_radius_number: 0
   button_padding_width_number: 10
   button_padding_height_number: 15
   button_border_color: '#ffffff'
-  button_background_color: transparent
+  button_background_color: 'rgba(0, 0, 0, 0)'
   button_text_color: '#123456'
   secondary_button_border_color: '#ffffff'
   secondary_button_background_color: 'rgba(0, 0, 0, 0)'
