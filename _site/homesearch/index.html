@@ -57,13 +57,44 @@
 	<link rel="manifest" href="/img/favicons/manifest.json">
 	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#00021a">
+
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		function onContactSubmit(token) {
+		document.getElementById("contact-form").submit();
+	}
+
+	function onHomeValueSubmit(token) {
+	document.getElementById("home-value-form").submit();
+	}
+
+	function onHomeSearchSubmit(token) {
+	document.getElementById("home-search-form").submit();
+	}
+
+		function onJoinOurTeamSubmit(token) {
+	  document.getElementById("join-our-team-form").submit();
+	}
+
+
+		function onStrategyCallSubmit(token) {
+	  document.getElementById("strategy-call-form").submit();
+	}
+
+		function onGuaranteedOfferSubmit(token) {
+	  document.getElementById("guaranteed-offer-form").submit();
+	}
+
+	</script>
+
+
 </head>
 
 
 	<body>
 		
 		<header id="hero">
-<div class="hero-img" style="background-image: url(/img/background.jpg); background-color: #999">
+<div class="hero-img" style="background-image: url(/img/background.jpg); background-color: #999999">
         <!-- logo -->
         <a href="/"><img src="/img/logo.png" alt="" class="site-logo" /></a>
         <!-- title -->
@@ -133,6 +164,12 @@
 </li>
 
 
+<li>
+	<a href="https://www.linkedin.com/in/jcyoungrealtor/" class="social-links" target="_blank">
+		<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Linkedin</title><path d="M554.85,30.18a25,25,0,1,0,25,25A25,25,0,0,0,554.85,30.18ZM548,67h-5V51h5V67Zm-2.6-18h0a2.83,2.83,0,1,1,3-2.83,2.81,2.81,0,0,1-3,2.83ZM568,67h-6V58.48c0-2.15-.8-3.62-2.73-3.62a2.51,2.51,0,0,0-2.41,1.94A5,5,0,0,0,557,58.1V67h-6c0.06-14,0-16,0-16h6v2.3c0-1.1,2-2.65,4.84-2.65,3.51,0,6.16,2.3,6.16,7.21V67Z" transform="translate(-529.85 -30.18)"/></svg>
+	</a>
+</li>
+
 
 
 <li>
@@ -149,6 +186,12 @@
 </li>
 
 
+<li>
+	<a href="https://www.instagram.com/jcyoungrealtor/?hl=en" class="social-links" target="_blank">
+		<svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Instagram</title><path d="M25.01 29.82a4.87 4.87 0 1 0-5-4.87 4.95 4.95 0 0 0 5 4.87z"/><path d="M32.79 25.14a7.77 7.77 0 0 1-15.54 0 9.56 9.56 0 0 1 .33-2.19h-2.7v10.7a1.69 1.69 0 0 0 1.39 1.3h17.4a1.49 1.49 0 0 0 1.21-1.3V22.93h-2.41a9.6 9.6 0 0 1 .32 2.21z"/><path d="M25 0a25 25 0 1 0 25 25A25 25 0 0 0 25 0zm12.88 34.72a3.21 3.21 0 0 1-3.21 3.21H16.09a3.21 3.21 0 0 1-3.21-3.21V16.14a3.21 3.21 0 0 1 3.21-3.21h18.59a3.21 3.21 0 0 1 3.21 3.21v18.59z"/><path d="M33.54 14.93h-2.83c-.62 0-.83.86-.83 1.48v2.69a.69.69 0 0 0 .83.84h2.83a1.13 1.13 0 0 0 1.34-.84v-2.69a1.68 1.68 0 0 0-1.34-1.48z"/></svg>
+	</a>
+</li>
+
 
 
 
@@ -162,6 +205,24 @@
 </li> -->
 </ul>
 </nav>
+
+					
+
+<div class="review-button-wrapper">
+	<a href="https://g.page/jcyoungrealtor" class="review button" target="_blank">
+		<svg class="google-logo" version="1.1" id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 328.6" xml:space="preserve">
+		<path id="path2998" class="st0" d="M246.1,116.2H129.5v34.6h82.7c-4.1,48.5-44.4,69.2-82.5,69.2c-48.7,0-91.3-38.3-91.3-92.1 c0-52.4,40.5-92.7,91.4-92.7c39.2,0,62.3,25,62.3,25l24.2-25.1c0,0-31.1-34.6-87.8-34.6c-72.1,0-128,60.9-128,126.8 c0,64.5,52.5,127.4,129.9,127.4c68,0,117.8-46.6,117.8-115.5C248.2,124.6,246.1,116.2,246.1,116.2L246.1,116.2z"/> <path id="path3000" class="st0" d="M341.6,91.1c-47.8,0-82.1,37.4-82.1,81c0,44.3,33.2,82.3,82.7,82.3c44.7,0,81.4-34.2,81.4-81.4 C423.6,119,380.9,91.1,341.6,91.1L341.6,91.1z M342.1,123.2c23.5,0,45.8,19,45.8,49.7c0,30-22.2,49.6-45.9,49.6 c-26.1,0-46.6-20.9-46.6-49.8C295.3,144.3,315.6,123.2,342.1,123.2L342.1,123.2z"/>
+		<path id="path3005" class="st0" d="M520.2,91.1c-47.8,0-82.1,37.4-82.1,81c0,44.3,33.2,82.3,82.7,82.3c44.7,0,81.4-34.2,81.4-81.4 C602.1,119,559.5,91.1,520.2,91.1L520.2,91.1z M520.7,123.2c23.5,0,45.8,19,45.8,49.7c0,30-22.2,49.6-45.9,49.6 c-26.1,0-46.6-20.9-46.6-49.8C473.9,144.3,494.2,123.2,520.7,123.2L520.7,123.2z"/>
+		<path id="path3007" class="st0" d="M695.3,91.2c-43.9,0-78.4,38.5-78.4,81.6c0,49.2,40,81.8,77.7,81.8c23.3,0,35.7-9.2,44.8-19.8 v16.1c0,28.2-17.1,45.1-42.9,45.1c-24.9,0-37.5-18.6-41.8-29.1L623.2,280c11.1,23.5,33.6,48.1,73.5,48.1c43.7,0,76.9-27.5,76.9-85.2 V96.1h-34.2V110C728.9,98.6,714.5,91.2,695.3,91.2L695.3,91.2z M698.5,123.2c21.5,0,43.6,18.4,43.6,49.8c0,31.9-22.1,49.5-44.1,49.5 c-23.4,0-45.2-19-45.2-49.2C652.9,141.9,675.5,123.2,698.5,123.2L698.5,123.2z"/>
+		<path id="path3011" class="st0" d="M925.9,91c-41.4,0-76.2,33-76.2,81.6c0,51.4,38.8,82,80.2,82c34.6,0,55.8-18.9,68.4-35.8 L970.1,200c-7.3,11.4-19.6,22.5-40,22.5c-23,0-33.5-12.6-40.1-24.8l109.5-45.4l-5.7-13.3C983.2,112.8,958.6,91,925.9,91L925.9,91z  M927.3,122.4c14.9,0,25.7,7.9,30.2,17.4l-73.1,30.6C881.2,146.8,903.7,122.4,927.3,122.4L927.3,122.4z"/>
+		<path id="path3015" class="st0" d="M797.5,249.7h36V8.9h-36V249.7z"/></svg> <span class="google-review">Business</span></a>
+</div>
+
+
+	
+		
+		
+		
 
 					  <div class="search-box">
 			<form  action="/search.html" method="get">
@@ -179,7 +240,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-7 col-md-7 col-lg-offset-1">
-					<form method="post" class="home-value" action="https://formspree.io/" onsubmit="return setReturn()">
+					<form method="post" class="home-value" action="/thankyou" id="home-search-blog">
     <fieldset>
         <p id="thanks"></p>
         <!--1-->
@@ -346,8 +407,7 @@
         <!--10-->
         <label for="phone">Number</label>
         <input type="tel" name="phone">
-        <input type="submit" class="submit button" value="Submit" name="submitBuyerForm">
-        <span class="asterisk">*</span>required
+        <button class="g-recaptcha" data-sitekey="6LeKl1UaAAAAAAogSumQnmbW9Mag-AqhVFepxjjR" data-callback='onHomeSearchSubmit' data-badge="bottomleft">Submit</button>
     </fieldset>
       <!-- Cloud cannon settings field -->
       <div class="hidden">
@@ -380,6 +440,12 @@ function setReturn(){
 </li>
 
 
+<li>
+	<a href="https://www.linkedin.com/in/jcyoungrealtor/" class="social-links" target="_blank">
+		<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Linkedin</title><path d="M554.85,30.18a25,25,0,1,0,25,25A25,25,0,0,0,554.85,30.18ZM548,67h-5V51h5V67Zm-2.6-18h0a2.83,2.83,0,1,1,3-2.83,2.81,2.81,0,0,1-3,2.83ZM568,67h-6V58.48c0-2.15-.8-3.62-2.73-3.62a2.51,2.51,0,0,0-2.41,1.94A5,5,0,0,0,557,58.1V67h-6c0.06-14,0-16,0-16h6v2.3c0-1.1,2-2.65,4.84-2.65,3.51,0,6.16,2.3,6.16,7.21V67Z" transform="translate(-529.85 -30.18)"/></svg>
+	</a>
+</li>
+
 
 
 <li>
@@ -396,6 +462,12 @@ function setReturn(){
 </li>
 
 
+<li>
+	<a href="https://www.instagram.com/jcyoungrealtor/?hl=en" class="social-links" target="_blank">
+		<svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Instagram</title><path d="M25.01 29.82a4.87 4.87 0 1 0-5-4.87 4.95 4.95 0 0 0 5 4.87z"/><path d="M32.79 25.14a7.77 7.77 0 0 1-15.54 0 9.56 9.56 0 0 1 .33-2.19h-2.7v10.7a1.69 1.69 0 0 0 1.39 1.3h17.4a1.49 1.49 0 0 0 1.21-1.3V22.93h-2.41a9.6 9.6 0 0 1 .32 2.21z"/><path d="M25 0a25 25 0 1 0 25 25A25 25 0 0 0 25 0zm12.88 34.72a3.21 3.21 0 0 1-3.21 3.21H16.09a3.21 3.21 0 0 1-3.21-3.21V16.14a3.21 3.21 0 0 1 3.21-3.21h18.59a3.21 3.21 0 0 1 3.21 3.21v18.59z"/><path d="M33.54 14.93h-2.83c-.62 0-.83.86-.83 1.48v2.69a.69.69 0 0 0 .83.84h2.83a1.13 1.13 0 0 0 1.34-.84v-2.69a1.68 1.68 0 0 0-1.34-1.48z"/></svg>
+	</a>
+</li>
+
 
 
 
@@ -409,6 +481,24 @@ function setReturn(){
 </li> -->
 </ul>
 </nav>
+
+					
+
+<div class="review-button-wrapper">
+	<a href="https://g.page/jcyoungrealtor" class="review button" target="_blank">
+		<svg class="google-logo" version="1.1" id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 328.6" xml:space="preserve">
+		<path id="path2998" class="st0" d="M246.1,116.2H129.5v34.6h82.7c-4.1,48.5-44.4,69.2-82.5,69.2c-48.7,0-91.3-38.3-91.3-92.1 c0-52.4,40.5-92.7,91.4-92.7c39.2,0,62.3,25,62.3,25l24.2-25.1c0,0-31.1-34.6-87.8-34.6c-72.1,0-128,60.9-128,126.8 c0,64.5,52.5,127.4,129.9,127.4c68,0,117.8-46.6,117.8-115.5C248.2,124.6,246.1,116.2,246.1,116.2L246.1,116.2z"/> <path id="path3000" class="st0" d="M341.6,91.1c-47.8,0-82.1,37.4-82.1,81c0,44.3,33.2,82.3,82.7,82.3c44.7,0,81.4-34.2,81.4-81.4 C423.6,119,380.9,91.1,341.6,91.1L341.6,91.1z M342.1,123.2c23.5,0,45.8,19,45.8,49.7c0,30-22.2,49.6-45.9,49.6 c-26.1,0-46.6-20.9-46.6-49.8C295.3,144.3,315.6,123.2,342.1,123.2L342.1,123.2z"/>
+		<path id="path3005" class="st0" d="M520.2,91.1c-47.8,0-82.1,37.4-82.1,81c0,44.3,33.2,82.3,82.7,82.3c44.7,0,81.4-34.2,81.4-81.4 C602.1,119,559.5,91.1,520.2,91.1L520.2,91.1z M520.7,123.2c23.5,0,45.8,19,45.8,49.7c0,30-22.2,49.6-45.9,49.6 c-26.1,0-46.6-20.9-46.6-49.8C473.9,144.3,494.2,123.2,520.7,123.2L520.7,123.2z"/>
+		<path id="path3007" class="st0" d="M695.3,91.2c-43.9,0-78.4,38.5-78.4,81.6c0,49.2,40,81.8,77.7,81.8c23.3,0,35.7-9.2,44.8-19.8 v16.1c0,28.2-17.1,45.1-42.9,45.1c-24.9,0-37.5-18.6-41.8-29.1L623.2,280c11.1,23.5,33.6,48.1,73.5,48.1c43.7,0,76.9-27.5,76.9-85.2 V96.1h-34.2V110C728.9,98.6,714.5,91.2,695.3,91.2L695.3,91.2z M698.5,123.2c21.5,0,43.6,18.4,43.6,49.8c0,31.9-22.1,49.5-44.1,49.5 c-23.4,0-45.2-19-45.2-49.2C652.9,141.9,675.5,123.2,698.5,123.2L698.5,123.2z"/>
+		<path id="path3011" class="st0" d="M925.9,91c-41.4,0-76.2,33-76.2,81.6c0,51.4,38.8,82,80.2,82c34.6,0,55.8-18.9,68.4-35.8 L970.1,200c-7.3,11.4-19.6,22.5-40,22.5c-23,0-33.5-12.6-40.1-24.8l109.5-45.4l-5.7-13.3C983.2,112.8,958.6,91,925.9,91L925.9,91z  M927.3,122.4c14.9,0,25.7,7.9,30.2,17.4l-73.1,30.6C881.2,146.8,903.7,122.4,927.3,122.4L927.3,122.4z"/>
+		<path id="path3015" class="st0" d="M797.5,249.7h36V8.9h-36V249.7z"/></svg> <span class="google-review">Business</span></a>
+</div>
+
+
+	
+		
+		
+		
 
 					  <div class="search-box">
 			<form  action="/search.html" method="get">
@@ -432,7 +522,7 @@ function setReturn(){
 		<img src="/img/cta-images/001.jpg" alt="" />
 	</a>
 	</div>
-	<h5>What’s Your Austin Home Worth?</h5>
+	<h5>What’s Your Home Worth?</h5>
 	<p>
 		Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you.
 	</p>
@@ -454,9 +544,9 @@ function setReturn(){
 		<img src="/img/cta-images/002.jpg" alt="" />
 	</a>
 	</div>
-	<h5>Looking for a Austin Home?</h5>
+	<h5>Looking for a Home?</h5>
 	<p>
-		Search the entire MLS for your Austin home.
+		Search the entire MLS for your home.
 	</p>
 	<div class="ctacontainer">
 		
@@ -485,18 +575,9 @@ function setReturn(){
 									 
 										 
 											 <li>
-												 <!-- <time>May 10, 2018</time> -->
-												 <a href="/this-is-a-test-post-copy-2.html">
-													 this is a test post
-												 </a>
-											 </li>
-										 
-									 
-										 
-											 <li>
-												 <!-- <time>May 7, 2018</time> -->
-												 <a href="/a-fox-in-space.html">
-													 A Fox in Space
+												 <!-- <time>March 31, 2021</time> -->
+												 <a href="/welcome-to-my-blog.html">
+													 Welcome To My Blog
 												 </a>
 											 </li>
 										 
@@ -518,18 +599,9 @@ function setReturn(){
 									 
 										 
 											 <li>
-												 <!-- <time>May 10, 2018</time> -->
-												 <a href="/this-is-a-test-post-copy-2.html">
-													 this is a test post
-												 </a>
-											 </li>
-										 
-									 
-										 
-											 <li>
-												 <!-- <time>May 7, 2018</time> -->
-												 <a href="/a-fox-in-space.html">
-													 A Fox in Space
+												 <!-- <time>March 31, 2021</time> -->
+												 <a href="/welcome-to-my-blog.html">
+													 Welcome To My Blog
 												 </a>
 											 </li>
 										 
@@ -551,18 +623,9 @@ function setReturn(){
 									 
 										 
 											 <li>
-												 <!-- <time>May 10, 2018</time> -->
-												 <a href="/this-is-a-test-post-copy-2.html">
-													 this is a test post
-												 </a>
-											 </li>
-										 
-									 
-										 
-											 <li>
-												 <!-- <time>May 7, 2018</time> -->
-												 <a href="/a-fox-in-space.html">
-													 A Fox in Space
+												 <!-- <time>March 31, 2021</time> -->
+												 <a href="/welcome-to-my-blog.html">
+													 Welcome To My Blog
 												 </a>
 											 </li>
 										 
@@ -573,17 +636,6 @@ function setReturn(){
 					</div>
 			
   </div>
-
-					
-	
-		
-    <div class="review-button-wrapper">
-      <a href="https://www.zillow.com/profile/jcyoungrealestate/" class="review button" target="_blank">
-        <svg class="zillow-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 243.89"><title>Zillow</title><path class="cls-1" d="M730.61 92.36c-8.05 0-13.42 4.51-16.11 12.57a95.85 95.85 0 0 0-3.5 26.84c0 14.39 1.83 24.16 4.51 30.5s9.88 9.88 16.11 9.88c13.42 0 19.76-12.57 19.76-41.24 0-16.11-1.83-26.85-6.23-32.33-3.76-4.4-8.27-6.23-14.5-6.23zM168.5 0c9.88 4.51 43.92 27.82 56.49 36.73-39.41.86-117.49 17.93-149.71 28.67C102.13 45.75 151.43 8.05 168.5 0zM32.22 107.61c21.48-9.88 80.65-27.82 137.14-40.38 0 0-109.33 100.41-139.83 130.91l25.13-67.23C34.9 133.6 26.85 134.46 0 140.79l32.22-33.18zM224 199.11c-95.9 5.37-199 40.38-210.71 44.78L25.88 208c32.33-15.25 113-43.92 212.43-51.12-1.72 8.12-12.46 34.07-14.31 42.23zm34-96a249.28 249.28 0 0 0-8.91 23.3c-38.55 2.68-98.59 14.39-127.26 25.13C136.28 138.11 233 42.21 233 42.21c37.74 25.13 76.3 56.49 76.3 56.49zm203.51 91.5h-95v-25.14l58.34-107.61c4.51-8.05 5.37-12.57 5.37-12.57a62.82 62.82 0 0 1-16.11 1.83H363l7.2-35.87h95v29.53l-61 110.29c-3.54 6.23-5.37 7.2-5.37 7.2s8.91-3.54 15.25-3.54h55.63l-8.16 35.87zm30.5 0V87l31.36-6.23v114.8h-31.29v-1zm16.18-122.87A19.76 19.76 0 1 1 528 52a19.92 19.92 0 0 1-19.81 19.74zm47.58 122.86V25.13l32.33-7.2V194.6h-32.33zm63.68 0V25.13l32.33-7.2V194.6h-32.33zm151.43-16.11c-8.91 10.74-21.48 17.08-40.38 17.08-33.18 0-54.66-25.13-54.66-62.72s21.48-63.68 54.66-63.68c17.08 0 31.36 6.23 41.24 17.93s14.39 25.13 14.39 44.78c0 20.51-5.37 34.9-15.25 46.61zM925.1 194.6h-29.54l-10.74-43.07c-2.68-9.88-5.37-21.48-7.2-29.53-.86-5.37-.86-7.2-1.83-12.57-.86 5.37-.86 7.2-2.68 15.25-2.68 10.74-8.05 32.33-10.74 43.92l-5.37 26h-29.52L793.32 69.05h32.33l9.88 46.61 7.2 38.55s2.68-22.45 8.91-43.07l11.71-41.24h29.53l9.88 41.24c5.37 22.45 8.91 43.92 8.91 43.92.86-5.37 3.54-25.13 6.23-40.38l8.91-43.92H960z"/></svg></a>
-    </div>
-		
-		
-		
 
 				</div>
 			</div>
@@ -649,11 +701,11 @@ function setReturn(){
 				</div><br />
 			</div>
 		<div class="col-lg-6 col-md-8 hidden-sm hidden-xs about-text">
-			<p>Work with JC and you will quickly understand why her clients say they felt listened to and heard about what they were trying to accomplish in buying or selling their home.   She is a ‘what-you-see-is-what-you-get,’ up-front kind of agent.</p>
+			<p>Work with JC and you will quickly understand why her clients say they felt listened to and heard about what they were trying to accomplish in buying or selling their home. She is a ‘what-you-see-is-what-you-get,’ up-front kind of agent.</p>
 
-<p>JC says, “I want to make sure everything fits the home, the client’s lifestyle, the neighborhood, the schools, and the community.  Change can be difficult for families. That’s why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!”  Whether your family is buying or selling, let JC and her team help you through this crossroads of decisions.   Call her directly, 214-799-9139</p>
+<p>JC says, “I want to make sure everything fits the home, the client’s lifestyle, the neighborhood, the schools, and the community. Change can be difficult for families. That’s why I continue to keep in touch with my clients to make sure they are acclimating well to the area. We achieve more together!” Whether your family is buying or selling, let JC and her team help you through this crossroads of decisions. Call her directly at (214) 799-9139.</p>
 
-<p>JC lives in North Texas with her family on their own 1.5 acres slice of heaven that they call the Triple J Ranchette.  As an early riser, she likes to embrace the day with some mediation, prayer and definitely some cream in her coffee.   Discover the difference the right  real estate team can make for you.</p>
+<p>JC lives in North Texas with her family on their own 1.5 acres slice of heaven that they call the Triple J Ranchette. As an early riser, she likes to embrace the day with some mediation, prayer and definitely some cream in her coffee. Discover the difference the right real estate team can make for you.</p>
 
 		</div>
 		<div class="col-lg-3">
@@ -749,6 +801,12 @@ function topFunction() {
 </li>
 
 
+<li>
+	<a href="https://www.linkedin.com/in/jcyoungrealtor/" class="social-links" target="_blank">
+		<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Linkedin</title><path d="M554.85,30.18a25,25,0,1,0,25,25A25,25,0,0,0,554.85,30.18ZM548,67h-5V51h5V67Zm-2.6-18h0a2.83,2.83,0,1,1,3-2.83,2.81,2.81,0,0,1-3,2.83ZM568,67h-6V58.48c0-2.15-.8-3.62-2.73-3.62a2.51,2.51,0,0,0-2.41,1.94A5,5,0,0,0,557,58.1V67h-6c0.06-14,0-16,0-16h6v2.3c0-1.1,2-2.65,4.84-2.65,3.51,0,6.16,2.3,6.16,7.21V67Z" transform="translate(-529.85 -30.18)"/></svg>
+	</a>
+</li>
+
 
 
 <li>
@@ -764,6 +822,12 @@ function topFunction() {
 	</a>
 </li>
 
+
+<li>
+	<a href="https://www.instagram.com/jcyoungrealtor/?hl=en" class="social-links" target="_blank">
+		<svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><title>Instagram</title><path d="M25.01 29.82a4.87 4.87 0 1 0-5-4.87 4.95 4.95 0 0 0 5 4.87z"/><path d="M32.79 25.14a7.77 7.77 0 0 1-15.54 0 9.56 9.56 0 0 1 .33-2.19h-2.7v10.7a1.69 1.69 0 0 0 1.39 1.3h17.4a1.49 1.49 0 0 0 1.21-1.3V22.93h-2.41a9.6 9.6 0 0 1 .32 2.21z"/><path d="M25 0a25 25 0 1 0 25 25A25 25 0 0 0 25 0zm12.88 34.72a3.21 3.21 0 0 1-3.21 3.21H16.09a3.21 3.21 0 0 1-3.21-3.21V16.14a3.21 3.21 0 0 1 3.21-3.21h18.59a3.21 3.21 0 0 1 3.21 3.21v18.59z"/><path d="M33.54 14.93h-2.83c-.62 0-.83.86-.83 1.48v2.69a.69.69 0 0 0 .83.84h2.83a1.13 1.13 0 0 0 1.34-.84v-2.69a1.68 1.68 0 0 0-1.34-1.48z"/></svg>
+	</a>
+</li>
 
 
 

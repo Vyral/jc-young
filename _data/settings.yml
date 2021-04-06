@@ -46,7 +46,7 @@ client:
   brokerage:
   market: Austin
   address:
-  phone: (214) 799-9139
+  phone: 214-799-9139
   phone_type:
   phone2:
   phone2_type:
@@ -95,6 +95,7 @@ socials:
   trulia_url:
   yelp_url:
   podcast_url:
+  google_business_url: https://g.page/jcyoungrealtor
 podcast:
   title: Austin Real Estate Podcast with JC Young
   categories: Education
